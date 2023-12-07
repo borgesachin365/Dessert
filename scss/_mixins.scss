@@ -1,0 +1,18 @@
+@mixin common-heading{
+    font-family: $heading-font;
+    font-size: 50px;
+    color: $black-color;
+    font-weight: 600;
+}
+
+@mixin common-padding{
+    padding: 5% 0;
+}
+
+@mixin common-paragraph{
+    font-family: $paragraph-font;
+    font-size: 15px;
+    color: $black-color;
+    line-height: 26px;
+    font-weight: 600;
+}
